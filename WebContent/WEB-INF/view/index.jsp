@@ -19,7 +19,7 @@
 		<h3>Burn : damage is halved, damage over time</h3>
 		<h3>Sleep : cannot use any action, can be recovered by itself</h3>
 		<h3>Freeze : cannot use any action, can be recovered by itself or using certain moves</h3>
-		<h3>Poison : inflict damage over time</h2>
+		<h3>Poison : inflict damage over time</h3>
 		<h3>Badly Poison : inflict damage over time, increased over time</h3>
 	</div>
 </body>
