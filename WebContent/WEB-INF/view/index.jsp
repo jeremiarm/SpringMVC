@@ -5,22 +5,36 @@
 <html>
 <head>
 <link rel="stylesheet" href="<c:url value="resources/css/bootstrap.min.css"/>">
+<link rel="stylesheet" href="<c:url value="resources/background.css"/>">
 <meta charset="ISO-8859-1">
 <title>POKEMON MOVES</title>
 </head>
-<body>
-	<div class="container">
-		<a href="move">ADD NEW MOVE</a>
-		<h2>This is a website to create a brand new and customized moves in Pokemon Games.</h2>
-		<h3>SIDE NOTE: Max value for accuracy and chance is 100, while for damage is 200</h3>
-		<h3>Status Inflicted : Paralyze , Confuse, Burn, Sleep, Freeze, Poison, Badly Poison</h3>
-		<h3>Paralyze : chance to not moving, speed is halved</h3>
-		<h3>Confuse : chance to hit yourself, can be recovered by itself</h3>
-		<h3>Burn : damage is halved, damage over time</h3>
-		<h3>Sleep : cannot use any action, can be recovered by itself</h3>
-		<h3>Freeze : cannot use any action, can be recovered by itself or using certain moves</h3>
-		<h3>Poison : inflict damage over time</h3>
-		<h3>Badly Poison : inflict damage over time, increased over time</h3>
+<body class="bg">
+	<div class="colour">
+		<div class ="text-center">
+			<h1>POKEMON MOVES</h1>
+			<p>This is a website to create a brand new and customized moves in Pokemon Games.</p>
+			<a href="move" class="btn btn-info" role="button">ADD NEW MOVE</a>
+			<p>SIDE NOTE: Max value for accuracy and chance is 100, while for damage is 200</p>
+			<p>Status Inflicted : Paralyze , Confuse, Burn, Sleep, Freeze, Poison, Badly Poison</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<p>Paralyze : chance to not moving, speed is halved</p>
+					<p>Confuse : chance to hit yourself, can be recovered by itself</p>
+				</div>
+				<div class="col-sm-4">
+					<p>Burn : damage is halved, damage over time</p>
+					<p>Sleep : cannot use any action, can be recovered by itself</p>
+					<p>Freeze : cannot use any action, can be recovered by itself or using certain moves</p>
+				</div>
+				<div class="col-sm-4">
+					<p>Poison : inflict damage over time</p>
+					<p>Badly Poison : inflict damage over time, increased over time</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
