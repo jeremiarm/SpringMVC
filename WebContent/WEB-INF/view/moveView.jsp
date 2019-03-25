@@ -40,7 +40,7 @@
 	            <td>${chance}</td>
 	        </tr>
 	    </table>
-	     <a href="" class="btn btn-info" role="button">BACK TO HOME</a>
+	     <a href="/Minggu7DynamicWeb" class="btn btn-info" role="button">BACK TO HOME</a>
     </div>
     <div class="alert alert-success alert-dismissible">
     	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>

@@ -28,6 +28,24 @@ public class MoveController {
         if (result.hasErrors()) {
             return "error";
         }
+        if (move.getDamage()<0) {
+        	return "error";
+        }
+        if (move.getDamage()>200) {
+        	return "error";
+        }
+        if (move.getAccuracy()<0) {
+        	return "error";
+        }
+        if (move.getAccuracy()>100) {
+        	return "error";
+        }
+        if (move.getChance()<0) {
+        	return "error";
+        }
+        if (move.getChance()>100) {
+        	return "error";
+        }
         model.addAttribute("name", move.getName());
         model.addAttribute("element", move.getElement());
         model.addAttribute("damage", move.getDamage());
