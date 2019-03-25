@@ -44,6 +44,7 @@
 	                </tr>
 	            </table>
 	        </form:form>
+	        <a href="" class="btn btn-info" role="button">BACK TO HOME</a>
     </div>
     </body>
 </html>

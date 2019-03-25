@@ -6,6 +6,8 @@
 <head>
 	<link rel="stylesheet" href="<c:url value="resources/css/bootstrap.min.css"/>">
 	<link rel="stylesheet" href="<c:url value="resources/background.css"/>">
+	<script src="<c:url value="resources/js/jquery.min.js"/>"></script>
+	<script src="<c:url value="resources/js/bootstrap.min.js"/>"></script>
 	<meta charset="ISO-8859-1">
 	<title>NEW MOVE</title>
 </head>
@@ -38,6 +40,11 @@
 	            <td>${chance}</td>
 	        </tr>
 	    </table>
+	     <a href="" class="btn btn-info" role="button">BACK TO HOME</a>
     </div>
+    <div class="alert alert-success alert-dismissible">
+    	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Success!</strong> New move is created
+  </div>
 </body>
 </html>
